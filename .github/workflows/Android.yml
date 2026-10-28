@@ -2,7 +2,8 @@ name: Falcon VPN Android Build
 
 on:
 push:
-branches: [main]
+branches:
+- main
 workflow_dispatch:
 
 permissions:
